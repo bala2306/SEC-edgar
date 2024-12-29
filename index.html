@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Data Analytics Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            font-size: x-large;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .contributors {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contributors div {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Financial Data Analytics Platform
+</header>
+
+<section>
+    <h2>Overview</h2>
+    <p>The Financial Data Analytics Platform leverages data science and machine learning to analyze sectoral financial trends using data from the SEC EDGAR database. This project demonstrates how to transform raw financial data into actionable insights for stakeholders such as investors, policymakers, and business leaders.</p>
+</section>
+
+<section>
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Advanced Data Processing:</strong> Automates data curation and storage using Python and MongoDB.</li>
+        <li><strong>Interactive Dashboards:</strong> Visualizes insights with Tableau, highlighting trends, profitability, and risks.</li>
+        <li><strong>Machine Learning Models:</strong> Implements predictive analysis to forecast market trends and evaluate company performance.</li>
+        <li><strong>Summarization with LLMs:</strong> Uses OpenAI GPT models for summarizing complex 10-K filings.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Objectives</h2>
+    <ol>
+        <li>Analyze financial data trends across sectors (e.g., Technology, Finance, Healthcare).</li>
+        <li>Identify correlations between profitability, risk, and research investments.</li>
+        <li>Present insights through interactive visualizations and dashboards.</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Data Source</h2>
+    <p><strong>SEC EDGAR Database:</strong> Financial filings of publicly traded U.S. companies.</p>
+
+    <h3>Key Metrics Analyzed</h3>
+    <ul>
+        <li>Assets and Liabilities</li>
+        <li>Profit and Loss</li>
+        <li>Research and Development (R&D) Expenditure</li>
+        <li>Sector-wise Trends</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Methodology</h2>
+    <ol>
+        <li><strong>Data Collection:</strong>
+            <ul>
+                <li>Extract financial data using Python scripts via the SEC EDGAR API.</li>
+                <li>Store data in MongoDB for scalable storage.</li>
+            </ul>
+        </li>
+        <li><strong>Data Processing:</strong>
+            <ul>
+                <li>Clean and preprocess data to handle missing values and standardize formats.</li>
+                <li>Engineer features like Asset-to-Liability Ratio and R&D-to-Profit Ratio.</li>
+            </ul>
+        </li>
+        <li><strong>Visualization:</strong>
+            <ul>
+                <li>Create dashboards using Tableau for insights on sectoral performance, profitability, and risk.</li>
+            </ul>
+        </li>
+        <li><strong>Machine Learning:</strong>
+            <ul>
+                <li>Train predictive models for market analysis.</li>
+                <li>Validate trends with statistical tests and correlation analyses.</li>
+            </ul>
+        </li>
+        <li><strong>Summarization with LLMs:</strong>
+            <ul>
+                <li>Automate the extraction and summarization of 10-K filings using OpenAI GPT models.</li>
+            </ul>
+        </li>
+    </ol>
+</section>
+
+<section>
+    <h2>Tools and Technologies</h2>
+    <ul>
+        <li><strong>Programming Languages:</strong> Python</li>
+        <li><strong>Database:</strong> MongoDB</li>
+        <li><strong>Visualization:</strong> Tableau</li>
+        <li><strong>Libraries:</strong> pandas, BeautifulSoup, LangChain</li>
+        <li><strong>APIs:</strong> SEC EDGAR API</li>
+        <li><strong>Machine Learning:</strong> Random Forest, Statistical Testing</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Visualizations</h2>
+    <ul>
+        <li><strong>Asset-Liability Trends:</strong> Tracks growth from 2009 to 2024.</li>
+        <li><strong>Sector-wise Profitability:</strong> Highlights high-performing and struggling sectors.</li>
+        <li><strong>R&D vs. Profit:</strong> Shows correlation between research investment and profitability.</li>
+        <li><strong>Interactive Dashboards:</strong> Enables real-time filtering and dynamic insights.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Key Insights</h2>
+    <ul>
+        <li><strong>Technology Sector:</strong> Dominates profitability with high R&D investment.</li>
+        <li><strong>Consumer Discretionary:</strong> Faces significant financial risks despite high expenses.</li>
+        <li><strong>Financial Stability:</strong> High asset-to-liability ratios indicate robust performance.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Ethical Considerations</h2>
+    <ul>
+        <li><strong>Bias Mitigation:</strong> Normalized data across sectors to ensure fair comparisons.</li>
+        <li><strong>Transparency:</strong> Documented all preprocessing and modeling steps.</li>
+        <li><strong>Reproducibility:</strong> Publicly available code and datasets.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>How to Run the Project</h2>
+    <ol>
+        <li>Clone the repository:
+            <pre><code>git clone https://github.com/madhurlak0810/SEC-edgar.git</code></pre>
+        </li>
+        <li>Install dependencies:
+            <pre><code>pip install -r requirements.txt</code></pre>
+        </li>
+        <li>Setup MongoDB and OpenAI credentials</li>
+        <li>Go through qualitative analysis and project checkpoints.</li>
+        <li>Visualize the insights with Tableau or view pre-generated dashboards using the twbx file and Excel.</li>
+    </ol>
+</section>
+<section id="notebooks">
+    <h2>Interactive Notebooks</h2>
+    <article>
+        <h3>Notebook 1: Data Processing and Quantitative Analysis</h3>
+        <iframe src="quantitative_data_exploration.html" width="100%" height="600"></iframe>
+    </article>
+    <article>
+        <h3>Notebook 2: Qualitative Analysis</h3>
+        <iframe src="qualitative_analysis.html" width="100%" height="600"></iframe>
+    </article>
+</section>
+<section>
+    <h2>Tableau Dashboards</h2>
+    <div>
+        <h3>Dashboard 1: Financial Overview</h3>
+        <img src="images/dashboard_SEC_1.png" alt="Financial Overview Dashboard" width="100%">
+    </div>
+    <div>
+        <h3>Dashboard 2: Qualitative Analysis</h3>
+        <img src="images/sec summary .png" alt="Sector Analysis Dashboard" width="100%">
+    </div>
+</section>
+<section>
+    <h2>MongoDB Data Storage</h2>
+    <p>Our platform uses MongoDB for scalable and efficient data storage. Below is an illustration of the data storage architecture:</p>
+    <img src="images/sec_data_storage.png" alt="MongoDB Data Storage Architecture" width="100%">
+</section>
+<section>
+    <h2>Contributions</h2>
+    <ul>
+        <li><strong>Madhur Lakshmanan:</strong> Data curation, preprocessing, and MongoDB integration and OpenAI integration.</li>
+        <li><strong>Inesh Tandon:</strong> Machine learning model design and performance validation.</li>
+        <li><strong>Rohan Jain:</strong> Visualization and result analysis.</li>
+        <li><strong>Balamurugan:</strong> Visualization and documentation.</li>
+        <li><strong>Abhyansh Anand:</strong> Report creation and sectoral analysis.</li>
+    </ul>
+</section>
+
+
+<section>
+    <h2>GitHub Repository</h2>
+    <p><a href="https://github.com/madhurlak0810/SEC-edgar">SEC-edgar</a></p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>For questions or suggestions, please contact <a href="mailto:madhulak@umd.edu">Madhur Lakshmanan</a>.</p>
+</section>
+
+</body>
+</html>
