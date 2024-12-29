@@ -1,2 +1,0 @@
-# SEC-edgar
-SEC-edgar
