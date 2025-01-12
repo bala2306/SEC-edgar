@@ -44,16 +44,10 @@ The Financial Data Analytics Platform leverages data science and machine learnin
 5. Visualize the insights with Tableau or view pre-generated dashboards using the tbwx file and excel.
 
 ## Contributions
-- **Madhur Lakshmanan**: Data curation, preprocessing, and MongoDB integration and OpenAI integration and Github Pages implementation.
+- **Madhur Lakshmanan**: MongoDB integration and OpenAI integration and Github Pages implementation.
 - **Inesh Tandon**: Machine learning model design and performance validation.
 - **Rohan Jain**: Visualization and result analysis.
-- **Balamurugan**: Visualization and documentation.
+- **Balamurugan**: Visualization, preprocessing, Data curation, Hypothesis Testing.
 - **Abhyansh Anand**: Report creation and sectoral analysis.
 
-**GitHub Repository**: [SEC-edgar](https://github.com/madhurlak0810/SEC-edgar.git)
-
-## Contact
-For questions or suggestions, please contact [Madhur Lakshmanan](mailto:madhulak@umd.edu).
-
----
 
